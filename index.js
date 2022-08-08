@@ -7,7 +7,7 @@ const userRoute=require('./routes/users')
 const authRoute=require('./routes/auth')
 const postRoute=require('./routes/post')
 
-const uri="mongodb+srv://ashwin:1234@cluster0.cjcyr.mongodb.net/socialMedia?retryWrites=true&w=majority"
+const uri="mongodb+srv:/<user:pass>@cluster0.cjcyr.mongodb.net/socialMedia?retryWrites=true&w=majority"
 const connectionParams = {
     useNewUrlParser: true,
     useUnifiedTopology: true
